@@ -790,9 +790,11 @@ cc_library(
     ],
     hdrs = [
         prefix_dir + "include/fst/extensions/far/compile-strings.h",
+        prefix_dir + "include/fst/extensions/far/encode.h",
         prefix_dir + "include/fst/extensions/far/far-class.h",
         prefix_dir + "include/fst/extensions/far/farscript.h",
         prefix_dir + "include/fst/extensions/far/getters.h",
+        prefix_dir + "include/fst/extensions/far/map-reduce.h",
         prefix_dir + "include/fst/extensions/far/script-impl.h",
     ],
     includes = [prefix_dir + "include"],
